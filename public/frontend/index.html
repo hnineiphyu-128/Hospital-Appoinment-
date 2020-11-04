@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hostipal</title>
+	<!-- CSS Link -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+
+	<!-- JS Link -->
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<!-- Navogation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light py-3 menu fixed-top">
+		<div class="container">
+			<img src="img/OK_logo.jpg" width="40" height="40">
+			<a class="navbar-brand" href="index.html">OK Hospital</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active px-3" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle px-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Speciality
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          	<a class="dropdown-item" href="#">Dental</a>
+				          	<!-- <div class="dropdown-divider"></div> -->
+				          	<a class="dropdown-item" href="#">Sugery</a>
+				        </div>
+				    </li>
+					<li class="nav-item">
+						<a class="nav-link px-3" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link px-3" href="contact.html">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a href="login.html" class="nav-link px-3">Login</a>
+					</li>
+					<li class="nav-item">
+						<a href="register.html" class="nav-link pl-3">Register</a>
+					</li>
+				</ul>
+			</div>
+	 	</div>
+	</nav>
+	<section  id="banner">
+
+		<div class="container-fluid">
+			<div class="row justify-content-center text-white text-center">
+				<div class="col-8" id="headerWhitespace">
+					<h1 class="text-uppercase display-6">Welcome To <span id="a">OK</span> Hospital</h1>
+					<p class="my-5">10-12 December,Downtown Conference Center,Yangon</p>
+					<a href="appoinment.html" class="btn d-xl-inline-block d-lg-inline-block" id="aboutBtn">Make Appoinment</a>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+	<!-- Doctor List -->
+	<div class="container mt-5">
+		<h2 class="text-center">Our Main Doctors</h2>
+		<hr class="divider my-2">
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 pt-5">
+				<div class="card">
+					<div class=" card_img">	
+						<img src="img/doctor_1.png" class="card-img-top border images" alt="...">
+						<div class="detail" data-toggle="modal" data-target="#myModal">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+							</span>
+						</div>
+					</div>
+					<div class="card-body text-center">
+						<p class="my-2">Dr. Yang</p>
+						<hr class="item-divider">
+						<p class="my-2"></p>
+						<button class="btn btn-outline-info btn-block">Making Appoinment</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 pt-5">
+				<div class="card">
+					<div class=" card_img">	
+						<img src="img/doctor_2.png" class="card-img-top border images" alt="...">
+						<div class="detail" data-toggle="modal" data-target="#myModal">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+							</span>
+						</div>
+					</div>
+					<div class="card-body text-center">
+						<p class="my-2">Dr. Yang</p>
+						<hr class="item-divider">
+						<p class="my-2"></p>
+						<button class="btn btn-outline-info btn-block">Making Appoinment</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 pt-5">
+				<div class="card">
+					<div class=" card_img">	
+						<img src="img/doctor_3.png" class="card-img-top border images" alt="...">
+						<div class="detail" data-toggle="modal" data-target="#myModal">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+							</span>
+						</div>
+					</div>
+					<div class="card-body text-center">
+						<p class="my-2">Dr. Yang</p>
+						<hr class="item-divider">
+						<p class="my-2"></p>
+						<button class="btn btn-outline-info btn-block">Making Appoinment</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 pt-5">
+				<div class="card">
+					<div class=" card_img">	
+						<img src="img/doctor_4.png" class="card-img-top border images" alt="...">
+						<div class="detail" data-toggle="modal" data-target="#myModal">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+							</span>
+						</div>
+					</div>
+					<div class="card-body text-center">
+						<p class="my-2">Dr. Yang</p>
+						<hr class="item-divider">
+						<p class="my-2"></p>
+						<button class="btn btn-outline-info btn-block">Making Appoinment</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 pt-5">
+				<div class="card">
+					<div class=" card_img">	
+						<img src="img/doctor_5.png" class="card-img-top border images" alt="...">
+						<div class="detail" data-toggle="modal" data-target="#myModal">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+							</span>
+						</div>
+					</div>
+					<div class="card-body text-center">
+						<p class="my-2">Dr. Xiao</p>
+						<hr class="item-divider">
+						<p class="my-2"></p>
+						<button class="btn btn-outline-info btn-block">Making Appoinment</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 pt-5">
+				<div class="card">
+					<div class=" card_img">	
+						<img src="img/doctor_6.webp" class="card-img-top border images" alt="...">
+						<div class="detail" data-toggle="modal" data-target="#myModal">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+							</span>
+						</div>
+					</div>
+					<div class="card-body text-center">
+						<p class="my-2">Dr. Xiao</p>
+						<hr class="item-divider">
+						<p class="my-2"></p>
+						<button class="btn btn-outline-info btn-block">Making Appoinment</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 pt-5">
+				<div class="card">
+					<div class=" card_img">	
+						<img src="img/doctor_7.png" class="card-img-top border images" alt="...">
+						<div class="detail" data-toggle="modal" data-target="#myModal">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+							</span>
+						</div>
+					</div>
+					<div class="card-body text-center">
+						<p class="my-2">Dr. Xiao</p>
+						<hr class="item-divider">
+						<p class="my-2"></p>
+						<button class="btn btn-outline-info btn-block">Making Appoinment</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 pt-5">
+				<div class="card">
+					<div class=" card_img">	
+						<img src="img/doctor_8.png" class="card-img-top border images" alt="...">
+						<div class="detail" data-toggle="modal" data-target="#myModal">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+							</span>
+						</div>
+					</div>
+					<div class="card-body text-center">
+						<p class="my-2">Dr. Xiao</p>
+						<hr class="item-divider">
+						<p class="my-2"></p>
+						<button class="btn btn-outline-info btn-block">Making Appoinment</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="jumbotron jumbotron-fluid  mt-5">
+		<div class="container text-center">
+		    <h1 class="">Fluid jumbotron</h1>
+		    <p class="lead">
+		    	This is a modified jumbotron that occupies the entire horizontal space of its parent.
+		    </p>
+		</div>
+	</div>
+
+	<!-- Carousel -->
+	<div class="container container-carousel mt-5">
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="card mb-3 text-decoration-none new_arrival">
+						<div class="row no-gutters">
+							<div class="col-md-3">
+								<img src="img/doctor_2.png" style="height: 50vh;" class="card-img" alt="...">
+							</div>
+							<div class="col-md-9">
+								<div class="card-body py-5">
+									<h5 class="card-title">Dr. Xiao</h5>
+									<p class="card-text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+									<a href="" class="btn btn-info btn-sm font-weight-light">Appoinment Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="img-overlay"></div>
+				</div>
+				<div class="carousel-item">
+					<div class="card mb-3 text-decoration-none new_arrival">
+						<div class="row no-gutters">
+							<div class="col-md-3">
+								<img src="img/doctor_4.png" style="height: 50vh;" class="card-img" alt="...">
+							</div>
+							<div class="col-md-9">
+								<div class="card-body py-5">
+									<h5 class="card-title">Dr. Xiao</h5>
+									<p class="card-text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+									<a href="" class="btn btn-info btn-sm font-weight-light">Appoinment Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="img-overlay"></div>
+				</div>
+				<div class="carousel-item">
+					<div class="card mb-3 text-decoration-none new_arrival">
+						<div class="row no-gutters">
+							<div class="col-md-3">
+								<img src="img/doctor_5.png" style="height: 50vh;" class="card-img" alt="...">
+							</div>
+							<div class="col-md-9">
+								<div class="card-body py-5">
+									<h5 class="card-title">Dr. Xiao</h5>
+									<p class="card-text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+									<a href="" class="btn btn-info btn-sm font-weight-light">Appoinment Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="img-overlay"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- Footer -->
+	<footer>
+		<div class="container-fluid mt-5 bg-dark text-white">
+			<div class="row pt-3">
+				<div class="col-md-6 col-6 text-left">
+					<p>All Rigth Reserved &copy; Designed By HMH</p>
+				</div>
+				<div class="col-md-6 col-6 text-right social">
+					<i class="fab fa-facebook-square fa-lg"></i>
+					<i class="fab fa-instagram-square fa-lg"></i>
+					<i class="fab fa-github-square fa-lg"></i>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

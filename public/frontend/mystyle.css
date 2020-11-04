@@ -1,0 +1,122 @@
+/*Navigation*/
+div#navbarSupportedContent a.nav-link{
+	/*color: rgba(202,206,221,0.8);
+	font-weight: 600;*/
+	font-size: 20px;
+}
+
+div#navbarSupportedContent ul.navbar-nav li.nav-item a.nav-link:hover{
+	border-bottom: 2px solid #5bc0de;
+	transition: 0.5s;
+	animation-delay: 0.8s;
+}
+div#navbarSupportedContent ul.navbar-nav li.nav-item .active{
+	border-bottom: 2px solid #5bc0de;
+	transition: 0.5s;
+	animation-delay: 0.8s;
+}
+
+/*Banner Image*/
+#banner{
+	width: 100%;
+	height: 83vh;
+	background: linear-gradient(to bottom,rgba(6,12,34,0.8)0,rgba(6,12,34,0.8)100%),
+	url(img/doctor_banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	box-shadow: 0 10px 20px rgba(0,0,0,.3);
+}
+#headerWhitespace{
+	margin-top: 15%;
+}
+a#aboutBtn{
+	border-radius: 50px;
+	padding: 12px 27px;
+	border: 2px solid #5bc0de;
+	color: #fff;
+	transition: 0.5s;
+	animation-delay: 0.8s;
+	-webkit-animation-delay:0.8s;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+a#aboutBtn:hover{
+	background-color: #5bc0de;
+	color: #fff;
+
+}
+
+/*Divider*/
+hr.divider{
+	max-width: 8.25rem;
+	border-width: 0.2rem;
+	border-color: #5bc0de; 
+}
+hr.fullDivider{
+	max-width: 40rem;
+	text-align: center;
+	border-width: 0.13rem;
+	border-color: #5bc0de; 
+}
+
+/*Doctor Hover*/
+.card_img{
+	position: relative;
+}
+.card_img img{
+	height: 50vh;
+}
+.detail{
+	position: absolute;
+	transition: 0.5s ease;
+	opacity: 0;
+	/*top: 50%;*/
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%,-50%);
+	text-align: center;
+
+}
+
+.card_img:hover .images{
+	opacity: 0.3;
+}
+
+.card_img:hover .detail{
+	opacity: 1;
+}
+
+.detail:hover .fa-stack{
+	color: #5bc0de;
+	transition: 0.2s; 
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+/*About*/
+.wrapper:hover .fa-stack{ 
+	transition: 0.9s;
+	transform: rotate(360deg);
+}
+
+
+/*Footer*/
+footer{
+	position: relative; 
+	left: auto; 
+	right: auto;
+	bottom: 0;
+	top: 100%;  
+	width: 100%;
+	/*height: 15vh;
+	background: linear-gradient(to bottom,rgba(6,12,34,0.8)0,rgba(6,12,34,0.8)100%),
+	url(img/covid_banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;*/
+}
+.social .fab:hover{
+	cursor: pointer;
+}
